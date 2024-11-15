@@ -47,12 +47,6 @@ section .box {
     justify-content: center;
 }
 
-.table-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 img{
     width: 50%;
     height: auto;
@@ -70,4 +64,16 @@ img{
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
+  }
+
+  @media (max-width: 400px) {
+    .content-btn {
+        display: flex;
+        flex-direction: column; /* Change to column layout */
+        align-items: center; /* Center items vertically */
+    }
+    .btn {
+        width: 50%;
+        margin: 10px 0; /* Add margin between buttons */
+    }
   }
