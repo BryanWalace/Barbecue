@@ -54,39 +54,20 @@ section .box {
 }
 
 img{
-    width: 30%;
+    width: 50%;
     height: auto;
 }
 
-table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background-color: #333;
-    color: white; 
-    border-radius: 8px; 
-    overflow: hidden;
-}
-
-th, td {
-    border: 1px solid #555;
-    padding: 12px;
+.content-btn{
     text-align: center;
 }
 
-th {
-    background-color: #444; 
-}
-
-tbody tr:nth-child(even) {
-    background-color: #3b3b3b;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #2e2e2e;
-}
-
-
-#audio {
-    display: none;
-}
+.btn {
+    text-decoration: none;
+    background-color: #444;
+    border: 1px solid #333;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
